@@ -1,0 +1,7 @@
+```kusto
+SigninLogs
+| where ResultType != 0
+| extend Country = tostring(LocationDetails.CountryOrRegion)
+| summarize FailedAttempts = count() by IPAddress, Country, bin(TimeGenerated, 1h)
+| where FailedAttempts > 5
+```
