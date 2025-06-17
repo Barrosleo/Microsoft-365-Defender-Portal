@@ -1,0 +1,11 @@
+{
+  "title": "Secure Score Insights",
+  "widgets": [
+    {
+      "type": "chart",
+      "title": "Secure Score by Category",
+      "data_source": "secure_score_data",
+      "chart_type": "pie"
+    }
+  ]
+}
