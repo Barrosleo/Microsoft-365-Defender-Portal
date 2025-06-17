@@ -1,0 +1,6 @@
+# This project includes documentation and automation scripts.
+# If you extend functionality (e.g., develop additional automation or dashboards), add corresponding dependencies here.
+
+Flask>=2.0
+requests>=2.0
+pandas>=1.3
