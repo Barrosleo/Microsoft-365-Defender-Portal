@@ -1,0 +1,11 @@
+{
+  "title": "Incident Overview Dashboard",
+  "widgets": [
+    {
+      "type": "table",
+      "title": "Recent Incidents",
+      "data_source": "incidents_data",
+      "columns": ["Incident ID", "Severity", "Category", "Impacted Assets"]
+    }
+  ]
+}
