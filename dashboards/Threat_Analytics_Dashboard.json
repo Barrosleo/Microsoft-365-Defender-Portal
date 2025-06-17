@@ -1,0 +1,11 @@
+{
+  "title": "Threat Analytics Dashboard",
+  "widgets": [
+    {
+      "type": "chart",
+      "title": "Global Threat Trends",
+      "data_source": "threat_data",
+      "chart_type": "line"
+    }
+  ]
+}
