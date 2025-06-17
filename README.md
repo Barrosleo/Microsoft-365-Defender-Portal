@@ -9,25 +9,37 @@ If your organization uses only Microsoft 365, this portal offers:
 
 ## Key Components of Microsoft 365 Defender
 
+---
+
 1. **Incident & Alert Management**
    - Collects and correlates security alerts from Microsoft 365 services (e.g., Exchange Online, Defender for Endpoint).
    - Alerts are grouped into incidents that include Severity, Category (e.g., phishing, malware), and Impacted Assets (user accounts, devices, mailboxes).
+
+---
 
 2. **Action Center**
    - Serves as a tracking dashboard for alerts and incident activities.
    - Allows security analysts to filter, manage, and resolve incidents systematically.
 
+---
+
 3. **Secure Score**
    - Audits security posture across identities, Microsoft apps (Exchange, Teams), and devices.
    - Provides actionable recommendations to address vulnerabilities.
+
+---
 
 4. **Threat Analytics Dashboard**
    - Displays global threat intelligence including common attack techniques (e.g., ransomware, phishing) and their impact on the environment.
    - Enables proactive analysis of high-risk vulnerabilities and alerts.
 
+---
+
 5. **Attack Simulation Training**
    - Enables simulation of incidents for hands-on training.
    - Helps develop incident response skills by investigating real-world threat patterns.
+
+---
 
 6. **Advanced Threat Hunting with KQL**
    - Uses Kusto Query Language (KQL) to search logs for hidden threats.
@@ -42,6 +54,8 @@ If your organization uses only Microsoft 365, this portal offers:
    ```
    This query detects multiple failed sign-ins from different locations, potentially indicating brute-force attacks.
    
+---
+
 7. **Summary**
 
 - **Centralized Management:** Monitor, investigate, and respond to security incidents through a unified portal.
@@ -51,6 +65,8 @@ If your organization uses only Microsoft 365, this portal offers:
 - **Security Posture Improvement:** Leverage Secure Score to continuously strengthen your Microsoft 365 security posture.
 
 - **Training & Simulation:** Use attack simulation training to prepare your team for real-world threats.
+
+---
 
 8. **Getting Started**
 
@@ -63,6 +79,8 @@ If your organization uses only Microsoft 365, this portal offers:
 - Git and a modern web browser
 
 - Python 3.9+ (for automation scripts and notebooks)
+
+---
 
 9. **Installation:**
 
@@ -83,6 +101,8 @@ pip install -r requirements.txt
 
 ***3. Review the Documentation:*** Check out the files under the docs/ folder for detailed information on configuration, incident management, threat analytics, and more.
 
+---
+
 10. **Usage Examples**
 
 ***Example Workflow: Investigate a Security Incident***
@@ -98,6 +118,8 @@ pip install -r requirements.txt
   5. **Simulate Attacks and Train Your Team:** Run the attack simulation training script in `automation/simulation_training.py` and check the guidelines in`docs/Attack_Simulation_Training.md`.
 
   6. **Hunt for Threats:** Open the notebook `notebooks/Defender_Hunting_Tutorial.ipynb` for a deep dive into threat hunting using KQL.
+
+---
 
 11. **Supporting Resources & Documentation**
 
@@ -115,6 +137,8 @@ pip install -r requirements.txt
 
 - Defender API Integration (if applicable)
 
+---
+
 12. **Technical Considerations**
 
 - **Programming Languages:** Python, KQL, Markdown, JSON, HTML/CSS/JavaScript (for dashboards)
@@ -124,6 +148,8 @@ pip install -r requirements.txt
 - **Deployment:** Local machine, cloud environments (via Azure), or integration with Microsoft 365 Defender’s portal
 
 - **Version Control:** Git; follow best practices for commit messages and branching
+
+---
 
 13. **Desired Outcomes / Impact**
 
@@ -135,13 +161,19 @@ pip install -r requirements.txt
 
 - Empower security analysts with advanced KQL-based threat hunting capabilities.
 
+---
+
 14. **Contributing**
 
 We welcome contributions! Please see our `CONTRIBUTING.md` for details on how to report issues, suggest features, and submit pull requests.
 
+---
+
 15. **License**
 
 This project is licensed under the MIT License – see the `LICENSE` file for details.
+
+---
 
 16. **Acknowledgements**
 
