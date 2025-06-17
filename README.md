@@ -56,7 +56,7 @@ If your organization uses only Microsoft 365, this portal offers:
    
 ---
 
-7. **Summary**
+## Summary
 
 - **Centralized Management:** Monitor, investigate, and respond to security incidents through a unified portal.
 
@@ -68,7 +68,7 @@ If your organization uses only Microsoft 365, this portal offers:
 
 ---
 
-8. **Getting Started**
+## Getting Started
 
 ***Prerequisites:***
 
@@ -82,7 +82,7 @@ If your organization uses only Microsoft 365, this portal offers:
 
 ---
 
-9. **Installation:**
+## Installation:
 
 ***1. Clone the repository:***
 
@@ -103,7 +103,7 @@ pip install -r requirements.txt
 
 ---
 
-10. **Usage Examples**
+## Usage Examples
 
 ***Example Workflow: Investigate a Security Incident***
 
@@ -121,7 +121,7 @@ pip install -r requirements.txt
 
 ---
 
-11. **Supporting Resources & Documentation**
+## Supporting Resources & Documentation
 
 - Incident Management
 
@@ -139,7 +139,7 @@ pip install -r requirements.txt
 
 ---
 
-12. **Technical Considerations**
+## Technical Considerations
 
 - **Programming Languages:** Python, KQL, Markdown, JSON, HTML/CSS/JavaScript (for dashboards)
 
@@ -151,7 +151,7 @@ pip install -r requirements.txt
 
 ---
 
-13. **Desired Outcomes / Impact**
+## Desired Outcomes / Impact
 
 - Enhance SOC efficiency by centralizing incident management and threat hunting.
 
@@ -163,19 +163,19 @@ pip install -r requirements.txt
 
 ---
 
-14. **Contributing**
+## Contributing
 
 We welcome contributions! Please see our `CONTRIBUTING.md` for details on how to report issues, suggest features, and submit pull requests.
 
 ---
 
-15. **License**
+## License
 
 This project is licensed under the MIT License – see the `LICENSE` file for details.
 
 ---
 
-16. **Acknowledgements**
+## Acknowledgements
 
 - **Microsoft 365 Defender Team:** For their ongoing innovation in cloud security.
 
