@@ -7,6 +7,41 @@ If your organization uses only Microsoft 365, this portal offers:
 - **Threat Hunting:** Advanced query tools (using Kusto Query Language - KQL) to proactively search for potential attacks.
 - **Security Posture Monitoring:** Actionable recommendations via Secure Score and threat analytics.
 
+---
+
+## Repository Structure
+
+```
+Microsoft-365-Defender-Portal/
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── .gitignore
+├── requirements.txt
+├── docs/
+│   ├── Incident_Management.md
+│   ├── Action_Center.md
+│   ├── Secure_Score.md
+│   ├── Threat_Analytics.md
+│   ├── Attack_Simulation_Training.md
+│   ├── Advanced_Threat_Hunting.md
+│   └── Overview.md
+├── queries/
+│   └── failed_signins.kql
+├── dashboards/
+│   ├── Incident_Overview_Dashboard.json
+│   ├── Threat_Analytics_Dashboard.json
+│   └── Secure_Score_Insights.json
+├── automation/
+│   ├── alert_triage.py
+│   ├── incident_response.py
+│   └── simulation_training.py
+└── notebooks/
+    └── Defender_Hunting_Tutorial.ipynb
+```
+
+---
+
 ## Key Components of Microsoft 365 Defender
 
 ---
