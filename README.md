@@ -87,7 +87,7 @@ If your organization uses only Microsoft 365, this portal offers:
 ***1. Clone the repository:***
 
 ```bash
-git clone https://github.com/YourGitHubUsername/Microsoft-365-Defender-Portal.git
+git clone https://github.com/Barrosleo/Microsoft-365-Defender-Portal.git
 cd Microsoft-365-Defender-Portal
 ```
 
